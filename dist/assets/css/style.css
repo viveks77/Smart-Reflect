@@ -1,0 +1,126 @@
+@media screen and (min-width: 1440px ) {
+    html{
+        font-size: 0.8vw;
+    }
+
+}
+
+
+@media screen and (max-width: 1440px ){
+    html{
+        font-size: 1.2vw;
+    }
+}
+
+body{
+    background-color: black;
+    color:white;
+    cursor : none;
+    
+}
+
+.top-bar{
+    
+    max-width:100%; 
+    margin:10px 0px 10px 0px;
+    height:20%;
+    max-height: 100%;
+   
+}
+
+.middle-bar{
+    max-width: 100%;
+    min-height: 60%;
+}
+
+.bottom-bar{
+    max-width:100%; 
+    margin:10px 0px 10px 0px;
+    height:40%;
+    max-height: 100%;
+}
+
+.clock{
+    position : relative;
+    top : 0px;
+    left : 0px;
+}
+
+.clock-date{
+    font-size: 1.1em;
+    position: relative;
+    top: 10px;
+    padding: 0px 0px 5px 0px;
+    border: 0px;
+} 
+
+.clock-time{
+    font-size: 3.2em;
+    border : 0px;
+    font-weight : 500;
+
+}
+
+.bottom-bar{
+    position: absolute;
+    bottom:0;
+    max-height:30%;
+    bottom:0%;
+}
+
+.news{
+    font-size:1.4em;
+    position:absolute;
+    bottom:30;
+    left:10;
+    right:10;
+}
+
+
+.weather{
+    position : absolute;
+    font-size : 1.3em;
+    
+    max-width:20%;
+    max-height : 20%;
+    right : 10; 
+}
+
+hr {
+    display: block;
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+city-name{
+    margin-bottom: 10px;
+    padding : 0px;
+}
+
+.weather-text{
+    font-size : 0.8em;
+    margin : 0px ;
+
+}
+
+.temprature{
+    font-size : 2.4em;
+    margin-top : 0px;
+    font-weight: 500;
+}
+
+.weather-forecast{
+    max-width:290px;
+}
+
+.notices-feed{
+    height:40%;
+    width : 30%;
+    position: absolute;
+    left : 1%;
+    font-size : 1.8em;
+}
