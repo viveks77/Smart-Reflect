@@ -12,5 +12,5 @@ class noticesFeed{
 
 }
 
-noticesfeed = new noticesFeed();
-noticesfeed.getNotices();
+//noticesfeed = new noticesFeed();
+//noticesfeed.getNotices();

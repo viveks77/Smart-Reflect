@@ -4,6 +4,6 @@ const getData = (data) => {
     console.log(data.doc.data());
 }
 
-noticesfeed = new noticesFeed();
-noticesfeed.getNotices(getData);
+//noticesfeed = new noticesFeed();
+//noticesfeed.getNotices(getData);
 
