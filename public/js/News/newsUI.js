@@ -29,12 +29,12 @@ class News{
         
         //code to be injected
         const html =`
-            <div class = 'text-center news'>
+            <div class = 'text-center fixed-bottom news'>
                 <span class = "text-secondary">${source}, ${when}</span>
                 <br><span>${title}</span>
             </div>`;
         
-            newsContainer.innerHTML = html;
+        newsContainer.innerHTML = html;
         
     }
     

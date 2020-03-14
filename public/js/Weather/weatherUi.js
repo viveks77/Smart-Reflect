@@ -24,14 +24,14 @@ class Weather{
         const temprature = weatherDets.Temperature.Metric.Value;
 
         const html = `
-            <div class = "city-name "> 
+            <div class = "city-name text-secondary"> 
                 <span>${localisedName}, ${cityDets.Country.ID}</span>
             </div>
             <hr>
             <div class = " d-flex justify-content-end temprature">
-            <div>${temprature}&deg C</div>
+            <div>${temprature} &deg C</div>
             </div>
-            <div class = "weather-text">
+            <div class = "weather-text text-secondary">
                 <span>${weatherText}</span>
             </div>
         `;
