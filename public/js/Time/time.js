@@ -7,16 +7,16 @@ class Time {
     const date = new Date();
 
     //date queries
-    const hour = dateFns.format(date,'HH');
-    const min = dateFns.format(date,'mm');
-    const sec = dateFns.format(date,'ss');
-    const dayinStr = dateFns.format(date,'dddd');
-    const monthinStr = dateFns.format(date,'MMMM');
-    const dayofM = dateFns.format(date,'Do');
-    const year = dateFns.format(date,'YYYY');
-    
+    const hour = dateFns.format(date, 'HH');
+    const min = dateFns.format(date, 'mm');
+    const sec = dateFns.format(date, 'ss');
+    const dayinStr = dateFns.format(date, 'dddd');
+    const monthinStr = dateFns.format(date, 'MMMM');
+    const dayofM = dateFns.format(date, 'Do');
+    const year = dateFns.format(date, 'YYYY');
+
     //code to inject
-    const html= `
+    const html = `
       <div class = "container text-center">
           <div class = "text-center text-secondary clock-date">
               <span>  ${dayinStr}, ${monthinStr} ${dayofM}, ${year} </span>
@@ -26,16 +26,13 @@ class Time {
           </div>
       </div>
     `;
-    
+
     clock.innerHTML = html;
   }
-  
+
   //Updating the time
   updateTime = () => {
     setInterval(this.updateUI, 1000);
-  } 
+  }
 
 }
-
-
-

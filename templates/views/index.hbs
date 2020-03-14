@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
@@ -17,7 +18,6 @@
 
 
     <div class="top-bar container">
-
         <div class="top-row">
             <div class="clock">
                 <!-- JS code (CLASS TIME)-->
@@ -27,17 +27,16 @@
             </div>
             <div class="col-1 text-right weather">
                 <!-- js code ( weather )-->
-                <div class = "temp">
+                <div class="temp">
 
                 </div>
             </div>
         </div>
-
     </div>
 
     <div class="middle-bar container">
-        <span class = "text-secondary">NOTICES</span>
-        <div class = "container notices-feed">
+        <span class="text-secondary">NOTICES</span>
+        <div class="container notices-feed">
             <!-- js code (notices-feed)-->
         </div>
     </div>
@@ -45,36 +44,12 @@
     <div class="bottom-bar container news-feed">
         <!-- js code (news-feed)-->
     </div>
-            <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
 
-        <!-- TODO: Add SDKs for Firebase products that you want to use
-            https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
-
-    <script>
-        // Your web app's Firebase configuration
-        var firebaseConfig = {
-            apiKey: "AIzaSyAYI0Y0cWENkHouFPujW1Fy5qe-CxU3paQ",
-            authDomain: "test-7f8c0.firebaseapp.com",
-            databaseURL: "https://test-7f8c0.firebaseio.com",
-            projectId: "test-7f8c0",
-            storageBucket: "test-7f8c0.appspot.com",
-            messagingSenderId: "594133418515",
-            appId: "1:594133418515:web:7aeff3a17dccdcdb5375e6",
-            measurementId: "G-EB76XZ7GG9"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        firebase.analytics();
-        const db = firebase.firestore();
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.js"></script>
-    <script src = "/js/Notices/notices-feed.js"></script>
-    <script src = "/js/Notices/noticesUi.js"></script>
-    <script src ="/js/News/news-feed.js"></script>
-    <script src ="/js/News/newsUI.js"></script>
+    <script src="/js/Notices/notices-feed.js"></script>
+    <script src="/js/Notices/noticesUi.js"></script>
+    <script src="/js/News/news-feed.js"></script>
+    <script src="/js/News/newsUI.js"></script>
     <script src="/js/Time/time.js"></script>
     <script src="/js/Weather/forecast.js"></script>
     <script src="/js/Weather/weatherUi.js"></script>

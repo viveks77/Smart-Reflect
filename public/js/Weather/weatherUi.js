@@ -1,23 +1,23 @@
 const weather = document.querySelector('.weather');
 
-class Weather{
-    constructor(){
+class Weather {
+    constructor() {
         this.city = 'Pusad';
         this.forecast = new Forecast('pusad');
     }
 
     //fetches data from the forecast.js
-    getData(){
+    getData() {
         this.forecast.updateCity(this.city)
-            .then( data => {
+            .then(data => {
                 console.log(data);
-                this.updateUI(data.cityDets,data.weather);
+                this.updateUI(data.cityDets, data.weather);
             })
-            .catch(err => console.log(err));    
+            .catch(err => console.log(err));
     }
 
     //updates ui 
-    updateUI(cityDets,weatherDets){
+    updateUI(cityDets, weatherDets) {
         const localisedName = this.city.toUpperCase();
         const weatherText = weatherDets.WeatherText;
         const weatherIcon = weatherDets.WeatherIcon;
