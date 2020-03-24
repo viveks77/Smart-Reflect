@@ -2,6 +2,9 @@
 const path = require('path');
 const express = require('express');
 const hbs = require('hbs');
+const getData = require('./routers/getdata');
+
+const port = process.env.PORT || 3000;
 
 //setting up paths
 const viewsPath = path.join(__dirname, '../templates/views');
@@ -13,13 +16,10 @@ app.set('view engine', 'hbs');
 app.set('views', viewsPath);
 
 app.use(express.static(publicPath));
-
-//setting up url for homepage
-app.get('', (req, res) => {
-    res.render('index');
-});
+app.use(express.json());
+app.use(getData);
 
 
-app.listen(3000, () => {
-    console.log('Server is up at 3000')
+app.listen(port, () => {
+    console.log('Server is up at ' + port);
 });

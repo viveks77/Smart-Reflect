@@ -1,73 +1,73 @@
-@media screen and (min-width: 1440px ) {
-    html{
+@media screen and (min-width: 1440px) {
+    html {
         font-size: 0.8vw;
     }
 
 }
 
 
-@media screen and (max-width: 1440px ){
-    html{
+@media screen and (max-width: 1440px) {
+    html {
         font-size: 1.2vw;
     }
 }
 
-body{
+body {
     background-color: black;
-    padding :0;
-    margin : 0;
-    display : grid;
-    color : white;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    color: white;
     font-family: 'Poppins';
 }
 
-.top-bar{
-    margin :0;
-    padding :0;
-    max-width : 100vw;
-    height : 30vh;
+.top-bar {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    height: 30vh;
 }
 
-.middle-bar{
-    margin :0;
-    padding :0;
-    max-width : 100vw;
-    height : 40vh;
+.middle-bar {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    height: 40vh;
 }
 
-.bottom-bar{
-    margin :0;
-    padding :0;
-    max-width : 100vw;
-    height : 30vh;
+.bottom-bar {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    height: 30vh;
 }
 
-.top-row{
-    padding : 0;
-    display : flex;
-    margin : 10px auto;
+.top-row {
+    padding: 0;
+    display: flex;
+    margin: 10px auto;
     justify-content: space-between;
 }
 
-.clock{
-    font-size : 1em;
-    min-width : 350px;
-    
+.clock {
+    font-size: 1em;
+    min-width: 350px;
+
 }
 
-.clock-date{
-    margin : 10px 0px 0px 10px;
+.clock-date {
+    margin: 10px 0px 0px 10px;
 }
 
-.clock .clock-time{
-    font-size : 3.4em;
+.clock .clock-time {
+    font-size: 3.4em;
     font-family: 'Montserrat', sans-serif;
 }
 
-.weather{
-    margin : 0px 15px;
-    padding : 5px 0px;
-    min-width : 300px;
+.weather {
+    margin: 0px 15px;
+    padding: 5px 0px;
+    min-width: 300px;
     font-size: 1.2em;
 }
 
@@ -80,32 +80,32 @@ body{
     border-style: inset;
     border-width: 1px;
     border-color: grey;
-  }
+}
 
-.city-name{
+.city-name {
     margin-bottom: 10px;
-    padding : 0px;
+    padding: 0px;
 }
 
-.weather-text{
-    font-size : 1em;
-    margin :5px 0px ;
+.weather-text {
+    font-size: 1em;
+    margin: 5px 0px;
 
 }
 
-.temprature{
-    font-size : 2.4em;
-    margin-top : 0px;
+.temprature {
+    font-size: 2.4em;
+    margin-top: 0px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
 
-.weather-forecast{
-    max-width:290px;
+.weather-forecast {
+    max-width: 290px;
 }
 
-.news{
-    font-size:1.6em;
-    margin : 30px auto;
+.news {
+    font-size: 1.6em;
+    margin: 30px auto;
     font-weight: 300;
 }
