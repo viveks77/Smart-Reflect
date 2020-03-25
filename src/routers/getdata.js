@@ -8,7 +8,7 @@ router.get('', (req, res) => {
     res.render('index');
 });
 
-router.get('/getData' , (req ,res) => {
+router.post('/getData' , (req ,res) => {
     const query = "select subject_name, teacher_name from  generated_timetable JOIN planned_timetable on generated_timetable.schedule_id = planned_timetable.schedule_id JOIN subject on planned_timetable.subject_id = subject.subject_id join teachers on subject.teacher_id = teachers.teacher_id where ";
     const semester = req.body.semester;
     const period_number = req.body.period_number;

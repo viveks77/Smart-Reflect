@@ -17,7 +17,7 @@ class Time {
 
     //code to inject
     const html = `
-      <div class = "container text-center">
+      <div class = "container">
           <div class = "text-center text-secondary clock-date">
               <span>  ${dayinStr}, ${monthinStr} ${dayofM}, ${year} </span>
           </div>
