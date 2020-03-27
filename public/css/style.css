@@ -49,6 +49,14 @@ body {
     justify-content: space-between;
 }
 
+.middle-row{
+    height: 100%;
+    padding: 0;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
 .clock {
     font-size: 1em;
     min-width: 250px;
@@ -109,4 +117,28 @@ body {
     font-size: 1.6em;
     margin: 30px auto;
     font-weight: 300;
+}
+
+.notices-feed{
+    margin: 0px;
+    padding: 0px;
+    height : 100%;
+    width : 350px;
+}
+
+.timetable-feed{
+    margin:0px 10px;
+    padding:0px;
+    height : 100%;
+    min-width : 350px;
+}
+
+.subject{
+    font-size :1.5em;
+    margin-bottom: 10px;
+}
+
+.prof{
+    margin-top : 10px;
+    margin-bottom : 10px;
 }
