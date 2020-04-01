@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "test" : "nodemon src/index.js"
+    "test": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.0",
+    "minimist": "^1.2.5",
     "mysql": "^2.18.1"
   }
 }
