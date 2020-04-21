@@ -46,7 +46,7 @@
 
                 </div>
             </div>
-            <div class="container notices-feed">
+            <div class="container notices-feed text-right">
                 <!-- js code (notices-feed)-->
             </div>
         </div>
@@ -57,9 +57,28 @@
         <!-- js code (news-feed)-->
     </div>
 
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-firestore.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyD1bxJIelYlnnZHE5HL4uOHDYcDMmAWCOY",
+            authDomain: "notice-board-52635.firebaseapp.com",
+            databaseURL: "https://notice-board-52635.firebaseio.com",
+            projectId: "notice-board-52635",
+            storageBucket: "notice-board-52635.appspot.com",
+            messagingSenderId: "61886274319",
+            appId: "1:61886274319:web:c7c2a7923264faf0d57c7a"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.js"></script>
     <script src="/js/Notices/notices-feed.js"></script>
-    <script src="/js/Notices/noticesUi.js"></script>
     <script src="/js/News/news-feed.js"></script>
     <script src="/js/News/newsUI.js"></script>
     <script src="/js/Time/time.js"></script>

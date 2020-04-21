@@ -14,7 +14,7 @@ class Timetable {
         } else {
             period_number = this.timeOfDay(date.getHours(), date.getMinutes());
         }
-        console.log(day_name);
+       
 
         const data = {
             period_number,
@@ -109,14 +109,14 @@ class Timetable {
         let html = ``;
         if (subject.toLowerCase() === "OFF") {
             html = `
-                <div class = "subject-wrapper" text-left">
+                <div class = "subject-wrapper text-left">
                     <span class = "text-secondary text-uppercase">${year} Year</span>
                     <div class ="subject">OFF LECTURE</div>
                 </div>
         `;
         } else if (subject.toLowerCase() == "break") {
             html = `
-                <div class = "subject-wrapper" text-left">
+                <div class = "subject-wrapper text-left">
                     <span class = "text-secondary text-uppercase">${year} Year</span>
                     <div class = "classroom text-light"> Class : ${classroom}</div>
                     <div class ="text-weight-bold">NEXT LECTURE AFTER BREAK</div>
@@ -124,7 +124,7 @@ class Timetable {
                 `;
         } else {
             html = `
-                <div class = "subject-wrapper" text-left">
+                <div class = "subject-wrapper text-left">
                     <span class = "text-secondary text-uppercase">${year} Year</span>
                     <div class = "classroom text-light"> Class : ${classroom}</div>
                     <div class ="subject">${subject}</div>
