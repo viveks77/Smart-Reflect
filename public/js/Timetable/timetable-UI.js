@@ -147,11 +147,11 @@ class Timetable {
             year: "Final",
             class: "5203"
         });
-        this.getdata(8, secondyear, {
+        this.getdata(4, secondyear, {
             year: "Second",
             class: "5201"
         });
-        this.getdata(8, thirdYear, {
+        this.getdata(6, thirdYear, {
             year: "Third",
             class: "5204"
         });
