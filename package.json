@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "test": "nodemon src/index.js"
+    "test": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/vikS7/college-finalProject#readme",
   "dependencies": {
+    "env-cmd": "^10.1.0",
     "express": "^4.17.1",
     "hbs": "^4.1.0",
     "minimist": "^1.2.5",

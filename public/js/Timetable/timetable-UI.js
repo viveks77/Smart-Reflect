@@ -107,7 +107,7 @@ class Timetable {
         const prof = data.teacher_name;
         const subject = data.subject_name;
         let html = ``;
-        if (subject.toLowerCase() === "OFF") {
+        if (subject.toLowerCase() === "off") {
             html = `
                 <div class = "subject-wrapper text-left">
                     <span class = "text-secondary text-uppercase">${year} Year</span>
@@ -120,6 +120,13 @@ class Timetable {
                     <span class = "text-secondary text-uppercase">${year} Year</span>
                     <div class = "classroom text-light"> Class : ${classroom}</div>
                     <div class ="text-weight-bold">NEXT LECTURE AFTER BREAK</div>
+                </div>
+                `;
+        } else if (subject.toLowerCase() == "PRACTICAL LAB") {
+            html = `
+                <div class = "subject-wrapper text-left">
+                    <span class = "text-secondary text-uppercase">${year} Year</span>
+                    <div class ="subject">${subject}</div>
                 </div>
                 `;
         } else {
