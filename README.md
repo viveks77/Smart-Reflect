@@ -4,8 +4,6 @@ SMART REFLECT
 PRE-REQUISITES :
  1. Node js,
  2. My-SQL,
- 3. Internet borwser,
- 4. Brains :)
 
 HOW TO MAKE IT HAPPEN :
  1. Installing Dependencies :
